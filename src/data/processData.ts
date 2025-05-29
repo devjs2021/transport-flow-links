@@ -1,4 +1,3 @@
-
 import { Phase } from "@/types/processTypes";
 
 export const processData: Phase[] = [
@@ -11,40 +10,40 @@ export const processData: Phase[] = [
         id: "vehicles",
         name: "CREACIÓN DE VEHÍCULOS",
         links: {
-          videoLink: "#", // Reemplaza con el link real del video
-          docLink: "#", // Reemplaza con el link real de documentación
-          reqLink: "#", // Reemplaza con el link real de requerimientos
-          figmaLink: "#" // Reemplaza con el link real de Figma
+          videoLink: "https://www.youtube.com/watch?v=example1", // Reemplaza con tu link de video
+          docLink: "https://docs.google.com/document/d/example1", // Reemplaza con tu documentación
+          reqLink: "https://docs.google.com/document/d/requirements1", // Reemplaza con requerimientos
+          figmaLink: "https://www.figma.com/file/example1" // Reemplaza con tu link de Figma
         }
       },
       {
         id: "associates",
         name: "CREACIÓN DE ASOCIADOS, CONDUCTORES Y POSEEDORES",
         links: {
-          videoLink: "#",
-          docLink: "#",
-          reqLink: "#",
-          figmaLink: "#"
+          videoLink: "https://www.youtube.com/watch?v=example2",
+          docLink: "https://docs.google.com/document/d/example2",
+          reqLink: "https://docs.google.com/document/d/requirements2",
+          figmaLink: "https://www.figma.com/file/example2"
         }
       },
       {
         id: "activation",
         name: "ACTIVACIÓN DE VEHÍCULOS",
         links: {
-          videoLink: "#",
-          docLink: "#",
-          reqLink: "#",
-          figmaLink: "#"
+          videoLink: "https://www.youtube.com/watch?v=example3",
+          docLink: "https://docs.google.com/document/d/example3",
+          reqLink: "https://docs.google.com/document/d/requirements3",
+          figmaLink: "https://www.figma.com/file/example3"
         }
       },
       {
         id: "security",
         name: "SEGURIDAD - ANÁLISIS",
         links: {
-          videoLink: "#",
-          docLink: "#",
-          reqLink: "#",
-          figmaLink: "#"
+          videoLink: "https://www.youtube.com/watch?v=example4",
+          docLink: "https://docs.google.com/document/d/example4",
+          reqLink: "https://docs.google.com/document/d/requirements4",
+          figmaLink: "https://www.figma.com/file/example4"
         }
       }
     ]
