@@ -204,7 +204,7 @@ export const processData: Phase[] = [
         name: "OPERACIÓN INTERNACIONAL",
         links: {
           videoLink: "https://drive.google.com/file/d/1KiankZFkEmU5p8uwcqnYsYalAea3jsak/view?usp=drive_link",
-          docLink: "#",
+          docLink: "https://drive.google.com/drive/folders/1J3Unp9RA5EBc8QxJBFB0qjVIkh3aTViB?usp=drive_link",
           reqLink: "#",
           figmaLink: "#"
         }
