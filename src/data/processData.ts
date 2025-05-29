@@ -9,7 +9,7 @@ export const processData: Phase[] = [
     icon: "🔧",
     processes: [
       {
-        id: "vehicles",
+        id: "arquitectura",
         name: "ARQUITECTURA DEL PROCESO",
         links: {
           videoLink: "https://drive.google.com/file/d/1bMu2HVqPYitnWbY5rPRPRSW",
