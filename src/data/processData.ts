@@ -9,6 +9,18 @@ export const processData: Phase[] = [
     icon: "🔧",
     processes: [
       {
+        id: "arquitectura",
+        name: "ARQUITECTURA DE TRANSPORTE",
+        links: {
+          videoLink: "https://drive.google.com/file/d/1bMu2HVqPYitnWbY5rPRPRSW",
+          docLink: "https://drive.google.com/drive/folders/1hTuugXbZ8avI1-xXaBcszR8O13iGU6vM?usp=drive_link",
+          reqLink: "https://docs.google.com/document/d/1WtkHt1pg6kYkeCqFdIkaM6L5VTl8ZUIL/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
+          figmaLink: "#"
+        }
+      },
+      
+      
+      {
         id: "vehicles",
         name: "CREACIÓN DE VEHÍCULOS",
         links: {
