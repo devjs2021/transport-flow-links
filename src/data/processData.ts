@@ -68,7 +68,8 @@ export const processData: Phase[] = [
         id: "clientActivation",
         name: "ACTIVACIÓN DE CLIENTES",
         links: {
-          videoLink: "https://drive.google.com/file/d/15NsV_L7wUK6YIDh0CmcBfRPtu3q5MM65/view?usp=drive_link",
+          videoLink: "https://drive.google.com/file/d/1YucCuFZFjKa9AyNUu2i7GZm4r9vgaG8q/view?usp=drive_link",
+          //videoLink: "https://drive.google.com/file/d/15NsV_L7wUK6YIDh0CmcBfRPtu3q5MM65/view?usp=drive_link",
           docLink: "https://drive.google.com/drive/folders/1N5KVOEsdIveLTdHhdFDBjY9B1zIKuh2t?usp=drive_link",
           reqLink: "https://docs.google.com/document/d/1hqjkcrvlt98w3UfmOYkqXhxwSf2HOqXi/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
           figmaLink: "#"
