@@ -258,7 +258,7 @@ export const processData: Phase[] = [
         id: "sealControl",
         name: "CONTROL DE PRECINTOS",
         links: {
-          videoLink: "#",
+          videoLink: "https://docs.google.com/document/d/12HWARKBJy9j68MAVP6k9FNrLz1iubFaf/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
           docLink: "https://docs.google.com/document/d/1njXPccG8qXeS1ArxIrGmFNgLKZrjvUTs/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
           reqLink: "https://docs.google.com/document/d/12HWARKBJy9j68MAVP6k9FNrLz1iubFaf/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
           figmaLink: "#"
