@@ -11,7 +11,7 @@ export const processData: Phase[] = [
         name: "PLANIFICACIÓN DE TRANSPORTE",
         links: {
           videoLink: "https://drive.google.com/file/d/[REEMPLAZAR_CON_ID_DEL_VIDEO]/view?usp=drive_link",
-          docLink: "https://drive.google.com/drive/folders/[REEMPLAZAR_CON_ID_DE_CARPETA]?usp=drive_link",
+          docLink: "https://docs.google.com/document/d/1WtkHt1pg6kYkeCqFdIkaM6L5VTl8ZUIL/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
           reqLink: "https://docs.google.com/document/d/[REEMPLAZAR_CON_ID_DEL_DOC]/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
           figmaLink: "https://www.figma.com/board/[REEMPLAZAR_CON_ID_DE_FIGMA]/Planificacion-Transporte?node-id=0-1&t=example-1"
         }
