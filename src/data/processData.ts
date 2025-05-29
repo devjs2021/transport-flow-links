@@ -1,3 +1,4 @@
+
 import { Phase } from "@/types/processTypes";
 
 export const processData: Phase[] = [
@@ -10,40 +11,40 @@ export const processData: Phase[] = [
         id: "vehicles",
         name: "CREACIÓN DE VEHÍCULOS",
         links: {
-          videoLink: "https://www.youtube.com/watch?v=example1", // Reemplaza con tu link de video
-          docLink: "https://docs.google.com/document/d/example1", // Reemplaza con tu documentación
-          reqLink: "https://docs.google.com/document/d/requirements1", // Reemplaza con requerimientos
-          figmaLink: "https://www.figma.com/file/example1" // Reemplaza con tu link de Figma
+          videoLink: "https://drive.google.com/file/d/1bMu2HVqPYitnWbY5rPRPRSW",
+          docLink: "https://drive.google.com/drive/folders/1hTuugXbZ8avI1-xXaBcszR8O13iGU6vM?usp=drive_link",
+          reqLink: "https://docs.google.com/document/d/1WtkHt1pg6kYkeCqFdIkaM6L5VTl8ZUIL/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
+          figmaLink: "#"
         }
       },
       {
         id: "associates",
         name: "CREACIÓN DE ASOCIADOS, CONDUCTORES Y POSEEDORES",
         links: {
-          videoLink: "https://www.youtube.com/watch?v=example2",
-          docLink: "https://docs.google.com/document/d/example2",
-          reqLink: "https://docs.google.com/document/d/requirements2",
-          figmaLink: "https://www.figma.com/file/example2"
+          videoLink: "https://drive.google.com/file/d/1bMu2HVqPYitnWbY5rPRPRSW",
+          docLink: "https://docs.google.com/document/d/1kiEkwJmMfrqFpuEThJlNSj-IYOMVzMee/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
+          reqLink: "https://docs.google.com/document/d/1kiEkwJmMfrqFpuEThJlNSj-IYOMVzMee/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
+          figmaLink: "https://www.figma.com/board/9LcwYAkO2NM12VyAOH1dge/Creaci%C3%B3n-Asociados-y--su-relaci%C3%B3n---HUMADEA?node-id=0-1&t=vtkiCDewXY8fBwu0-1"
         }
       },
       {
         id: "activation",
         name: "ACTIVACIÓN DE VEHÍCULOS",
         links: {
-          videoLink: "https://www.youtube.com/watch?v=example3",
-          docLink: "https://docs.google.com/document/d/example3",
-          reqLink: "https://docs.google.com/document/d/requirements3",
-          figmaLink: "https://www.figma.com/file/example3"
+          videoLink: "https://drive.google.com/file/d/1bMu2HVqPYitnWbY5rPRPRSW",
+          docLink: "https://drive.google.com/drive/folders/1hTuugXbZ8avI1-xXaBcszR8O13iGU6vM?usp=drive_link",
+          reqLink: "https://docs.google.com/document/d/1Fsk0P7Y91hnXlESuNx4gJrEwKEGUpivQ/edit?usp=drive_link&ouid=107950265078643295769&rtpof=true&sd=true",
+          figmaLink: "#"
         }
       },
       {
         id: "security",
         name: "SEGURIDAD - ANÁLISIS",
         links: {
-          videoLink: "https://www.youtube.com/watch?v=example4",
-          docLink: "https://docs.google.com/document/d/example4",
-          reqLink: "https://docs.google.com/document/d/requirements4",
-          figmaLink: "https://www.figma.com/file/example4"
+          videoLink: "https://drive.google.com/file/d/13YaXb85FhVSR29avhLLfTlJaAU33l6N_/view?usp=drive_link",
+          docLink: "https://docs.google.com/document/d/1uOnioVU7Hf30hKdm9CcFi8mLWaOnDOhx/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
+          reqLink: "https://docs.google.com/document/d/1Fsk0P7Y91hnXlESuNx4gJrEwKEGUpivQ/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
+          figmaLink: "#"
         }
       }
     ]
@@ -57,19 +58,19 @@ export const processData: Phase[] = [
         id: "clientCreation",
         name: "CREACIÓN DE CLIENTE",
         links: {
-          videoLink: "#",
-          docLink: "#",
-          reqLink: "#",
-          figmaLink: "#"
+          videoLink: "https://drive.google.com/file/d/15NsV_L7wUK6YIDh0CmcBfRPtu3q5MM65/view?usp=drive_link",
+          docLink: "https://drive.google.com/drive/folders/1941HQ7AWrIauUAmbkr73Oqf8aZHU6Scd?usp=drive_link",
+          reqLink: "https://docs.google.com/document/d/1gHKhxOgoYL3QwVtunnUTIyHfRsHyrCtD/edit?usp=sharing&ouid=107950265078643295769&rtpof=true&sd=true",
+          figmaLink: "https://www.figma.com/board/Yk7d3FBrjSF1FH5iU12L3j/Creaci%C3%B3n-de-un-Cliente-y-Activaci%C3%B3n?node-id=0-1&t=SkvrcmYqvhSetBIb-1"
         }
       },
       {
         id: "clientActivation",
         name: "ACTIVACIÓN DE CLIENTES",
         links: {
-          videoLink: "#",
-          docLink: "#",
-          reqLink: "#",
+          videoLink: "https://drive.google.com/file/d/15NsV_L7wUK6YIDh0CmcBfRPtu3q5MM65/view?usp=drive_link",
+          docLink: "https://drive.google.com/drive/folders/1N5KVOEsdIveLTdHhdFDBjY9B1zIKuh2t?usp=drive_link",
+          reqLink: "https://docs.google.com/document/d/1hqjkcrvlt98w3UfmOYkqXhxwSf2HOqXi/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
           figmaLink: "#"
         }
       },
@@ -77,19 +78,19 @@ export const processData: Phase[] = [
         id: "quotaAssignment",
         name: "ASIGNACIÓN DE CUPO CLIENTES",
         links: {
-          videoLink: "#",
-          docLink: "#",
-          reqLink: "#",
-          figmaLink: "#"
+          videoLink: "https://drive.google.com/file/d/15NsV_L7wUK6YIDh0CmcBfRPtu3q5MM65/view?usp=drive_link",
+          docLink: "https://drive.google.com/drive/folders/1lUqaYIBLIsd9ihlj1soLHlVyhHMDBf9B?usp=drive_link",
+          reqLink: "https://docs.google.com/document/d/1f6raewd8sBqTq0BkZQezJ_esbxRuNtKh/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
+          figmaLink: "https://www.figma.com/board/74GfVbGmkYkrSZkvi1JrEe/Asignaci%C3%B3n-Cupo-Clientes?node-id=0-1&t=abKn3zFPwG7LXHxQ-1"
         }
       },
       {
         id: "quotaNews",
         name: "NOVEDADES CUPOS DE CLIENTES",
         links: {
-          videoLink: "#",
-          docLink: "#",
-          reqLink: "#",
+          videoLink: "https://drive.google.com/file/d/15NsV_L7wUK6YIDh0CmcBfRPtu3q5MM65/view?usp=drive_link",
+          docLink: "https://drive.google.com/file/d/1gGAD1-QPPdk-n-vq9NLI0oo_6EAyWeZm/view?usp=drive_link",
+          reqLink: "https://docs.google.com/document/d/1Mmi2KL2TrWDp64Ax3gtbENRwVTql4k3Y/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
           figmaLink: "#"
         }
       }
@@ -104,8 +105,8 @@ export const processData: Phase[] = [
         id: "freights",
         name: "FLETES Y TARIFAS",
         links: {
-          videoLink: "#",
-          docLink: "#",
+          videoLink: "https://drive.google.com/file/d/1z2IJKUhAwq3_D5RvAbBIoN2UF3oIeQOQ/view?usp=drive_link",
+          docLink: "https://docs.google.com/document/d/1k4h0M_JWtYCxxW6KzIwaL62Jd2MrhSYg/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
           reqLink: "#",
           figmaLink: "#"
         }
@@ -114,7 +115,7 @@ export const processData: Phase[] = [
         id: "costGuide",
         name: "GUÍA DE COSTOS OPERACIONALES",
         links: {
-          videoLink: "#",
+          videoLink: "https://drive.google.com/file/d/1ebLmQ7Cc5trhD150VEFPGUL3bn7NbZQ-/view?usp=drive_link",
           docLink: "#",
           reqLink: "#",
           figmaLink: "#"
@@ -124,9 +125,9 @@ export const processData: Phase[] = [
         id: "businessLines",
         name: "LÍNEAS DE NEGOCIO - RELACIÓN OP",
         links: {
-          videoLink: "#",
-          docLink: "#",
-          reqLink: "#",
+          videoLink: "https://drive.google.com/file/d/1ibKUGF0P9UKqCs223iYHPU5CMXVak2VR/view?usp=drive_link",
+          docLink: "https://docs.google.com/document/d/1B7NN3U4SgPUAGWJcYMwcu3F-TsSjQXuV/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
+          reqLink: "https://docs.google.com/document/d/1X4p-rR3J2t3pvKfsqSsjucz-6YypdUB_/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
           figmaLink: "#"
         }
       }
@@ -141,9 +142,9 @@ export const processData: Phase[] = [
         id: "specializedOp",
         name: "CREACIÓN OP REFRIGERADOS, MERCANCÍAS PELIGROSAS Y RO RO, EXTRADIMENSIONADA",
         links: {
-          videoLink: "#",
-          docLink: "#",
-          reqLink: "#",
+          videoLink: "https://drive.google.com/file/d/1PJU3uX_sLkAHpFmaiF8yVVBF6vlCSOre/view?usp=drive_link",
+          docLink: "https://drive.google.com/drive/folders/1MctByc5f2SebpINpVWaQDipnelV9JYvR?usp=drive_link",
+          reqLink: "https://docs.google.com/document/d/1wNts0stPF7l33iGHzwnPnvGB4Pe0TywO/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
           figmaLink: "#"
         }
       },
@@ -151,9 +152,9 @@ export const processData: Phase[] = [
         id: "foreignTrade",
         name: "COMERCIO EXTERIOR",
         links: {
-          videoLink: "#",
+          videoLink: "https://drive.google.com/file/d/1keZ1oSt3IdV6Lr-hVtjCdlQVuaGirxEJ/view?usp=drive_link",
           docLink: "#",
-          reqLink: "#",
+          reqLink: "https://docs.google.com/document/d/1-eRq8_Ce79GaWIeNhny7lXkCYRNoGC2g/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
           figmaLink: "#"
         }
       },
@@ -161,9 +162,9 @@ export const processData: Phase[] = [
         id: "logistics",
         name: "LOGÍSTICA - CONTENEDORES",
         links: {
-          videoLink: "#",
-          docLink: "#",
-          reqLink: "#",
+          videoLink: "https://drive.google.com/file/d/1Txwtx8I5Nvo_cAvo3lBcISK1PlqFYIjo/view?usp=drive_link",
+          docLink: "https://docs.google.com/document/d/1ePaN-exZHGLvXd7Giv_7z1wAeKkrGJ94/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
+          reqLink: "https://docs.google.com/document/d/1NeOnkr5woHYQUcrURIdEgmTVo8_m2o_5/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
           figmaLink: "#"
         }
       },
@@ -171,7 +172,7 @@ export const processData: Phase[] = [
         id: "international",
         name: "OPERACIÓN INTERNACIONAL",
         links: {
-          videoLink: "#",
+          videoLink: "https://drive.google.com/file/d/1KiankZFkEmU5p8uwcqnYsYalAea3jsak/view?usp=drive_link",
           docLink: "#",
           reqLink: "#",
           figmaLink: "#"
@@ -188,29 +189,29 @@ export const processData: Phase[] = [
         id: "enturnamiento",
         name: "ENTURNAMIENTO",
         links: {
-          videoLink: "#",
-          docLink: "#",
-          reqLink: "#",
-          figmaLink: "#"
+          videoLink: "https://drive.google.com/file/d/1Bew45voBfoZ3regH4Rwa7vUa/view?usp=drive_link",
+          docLink: "https://docs.google.com/document/d/1h-y6NB3t-BCSts2WnHivaHirfBlbaW8X/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
+          reqLink: "https://docs.google.com/document/d/1tBB5BFLWja-bajylK2vCTmSuI1aN1R-O/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
+          figmaLink: "https://www.figma.com/board/dsVuiJid3C4MIuo0iCRq8F/Enturnamiento---HUMAEDA?node-id=7-2246&t=LXwlWujkHlsoiblR-1"
         }
       },
       {
         id: "opCreation",
         name: "CREACIÓN DE OP",
         links: {
-          videoLink: "#",
-          docLink: "#",
-          reqLink: "#",
-          figmaLink: "#"
+          videoLink: "https://drive.google.com/file/d/1PJU3uX_sLkAHpFmaiF8yVVBF6vlCSOre/view?usp=drive_link",
+          docLink: "https://drive.google.com/drive/folders/1MctByc5f2SebpINpVWaQDipnelV9JYvR?usp=drive_link",
+          reqLink: "https://docs.google.com/document/d/12CLe8OA_bTnPh6KXuY0nYkVU6cIyboQe/edit?usp=sharing&ouid=107950265078643295769&rtpof=true&sd=true",
+          figmaLink: "https://www.figma.com/board/uLKom2kYlZ7X4duAeOUf6y/Creaci%C3%B3n-Orden-de-Producci%C3%B3n-HUMADEA?node-id=0-1&t=gpnhuL9ZwkxTa8EP-1"
         }
       },
       {
         id: "opNews",
         name: "NOVEDADES OP",
         links: {
-          videoLink: "#",
+          videoLink: "https://drive.google.com/file/d/1JOOV_QEsUTQtXhuX-GcxLpn-TZGGNLUp/view?usp=drive_link",
           docLink: "#",
-          reqLink: "#",
+          reqLink: "https://docs.google.com/document/d/1lzmCscMYch5CE4A5F6tTRnAGEg95oBtq/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
           figmaLink: "#"
         }
       },
@@ -218,19 +219,19 @@ export const processData: Phase[] = [
         id: "loadOrder",
         name: "ORDEN DE CARGUE",
         links: {
-          videoLink: "#",
-          docLink: "#",
-          reqLink: "#",
-          figmaLink: "#"
+          videoLink: "https://drive.google.com/file/d/13hUvHp_PT4R01SBFfwMTZEgb_2LIE0rD/view?usp=drive_link",
+          docLink: "https://drive.google.com/drive/folders/11-PbagGT3FASgMxlt15PrvMJxi-vqTeu?usp=sharing",
+          reqLink: "https://docs.google.com/document/d/184DLxRDYqmIlYLBWHFXvN9IGdtP7ZO7b/edit?usp=sharing&ouid=107950265078643295769&rtpof=true&sd=true",
+          figmaLink: "https://www.figma.com/board/F2pwOSf5GFXq0G5gLeV7u7/Creaci%C3%B3n-de-Orden-de-Cargue-HUMADEA?node-id=0-1&t=VagiS79hEWEQOrMo-1"
         }
       },
       {
         id: "remesa",
         name: "REMESA",
         links: {
-          videoLink: "#",
-          docLink: "#",
-          reqLink: "#",
+          videoLink: "https://drive.google.com/file/d/13hUvHp_PT4R01SBFfwMTZEgb_2LIE0rD/view?usp=drive_link",
+          docLink: "https://docs.google.com/document/d/1Y3Sdlp3bmblMbyhg2k5E2afQTIYJxAqx/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
+          reqLink: "https://docs.google.com/document/d/15tPWcqk0vuiydKTRrTPcHL5O57WGkR8d/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
           figmaLink: "#"
         }
       },
@@ -238,9 +239,9 @@ export const processData: Phase[] = [
         id: "manifest",
         name: "MANIFIESTO",
         links: {
-          videoLink: "#",
-          docLink: "#",
-          reqLink: "#",
+          videoLink: "https://drive.google.com/file/d/13hUvHp_PT4R01SBFfwMTZEgb_2LIE0rD/view?usp=drive_link",
+          docLink: "https://docs.google.com/document/d/1Y3Sdlp3bmblMbyhg2k5E2afQTIYJxAqx/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
+          reqLink: "https://docs.google.com/document/d/10Re3zTG6g1U3yZ0FUn7opIeOCtdLrNl8/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
           figmaLink: "#"
         }
       }
@@ -256,7 +257,7 @@ export const processData: Phase[] = [
         name: "CONTROL DE PRECINTOS",
         links: {
           videoLink: "#",
-          docLink: "#",
+          docLink: "https://docs.google.com/document/d/1njXPccG8qXeS1ArxIrGmFNgLKZrjvUTs/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
           reqLink: "#",
           figmaLink: "#"
         }
@@ -265,8 +266,8 @@ export const processData: Phase[] = [
         id: "securityTracking",
         name: "TRACKING SEGURIDAD TRÁFICO",
         links: {
-          videoLink: "#",
-          docLink: "#",
+          videoLink: "https://drive.google.com/file/d/1h5YjiOLpU8zLrZSxNwiQM1C00wHhKMFK/view?usp=drive_link",
+          docLink: "https://docs.google.com/document/d/1HFtkPxjc0KXmvvMF6HehiwjnJOlzdCMt/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
           reqLink: "#",
           figmaLink: "#"
         }
@@ -275,7 +276,7 @@ export const processData: Phase[] = [
         id: "commercialTracking",
         name: "TRACKING COMERCIAL - OPERACIONES",
         links: {
-          videoLink: "#",
+          videoLink: "https://drive.google.com/file/d/1EpLv5nIC_VBuKDE1RSK9OvDuAgEm_gO3/view?usp=drive_link",
           docLink: "#",
           reqLink: "#",
           figmaLink: "#"
@@ -286,7 +287,7 @@ export const processData: Phase[] = [
         name: "SEGURIDAD - TRÁFICO",
         links: {
           videoLink: "#",
-          docLink: "#",
+          docLink: "https://docs.google.com/document/d/1qsekxu-xMUeCYQUf6-V2IYtqhcTqJHBM/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
           reqLink: "#",
           figmaLink: "#"
         }
@@ -303,8 +304,8 @@ export const processData: Phase[] = [
         name: "CREACIÓN DE ANTICIPO",
         links: {
           videoLink: "#",
-          docLink: "#",
-          reqLink: "#",
+          docLink: "https://docs.google.com/document/d/1zYbqfEm3pn2Cl4cZ_HDoxf_4owe0IRxL/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
+          reqLink: "https://docs.google.com/document/d/1JWqwClDbPP9ywS6_P2cy25fkSTSfOc-3/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
           figmaLink: "#"
         }
       },
@@ -312,9 +313,9 @@ export const processData: Phase[] = [
         id: "settlements",
         name: "CUMPLIDOS Y LIQUIDACIONES",
         links: {
-          videoLink: "#",
-          docLink: "#",
-          reqLink: "#",
+          videoLink: "https://drive.google.com/file/d/1uExgRD7RudgRftN0YRTmc47xBtkfeJy1/view?usp=drive_link",
+          docLink: "https://docs.google.com/document/d/1S5hks2lPL9I0U2aLoDNP64f1w83a-Eat/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
+          reqLink: "https://docs.google.com/document/d/121H93Hpcp2jTeHULY4FuxiIJbSpSLmQT/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
           figmaLink: "#"
         }
       },
@@ -324,7 +325,7 @@ export const processData: Phase[] = [
         links: {
           videoLink: "#",
           docLink: "#",
-          reqLink: "#",
+          reqLink: "https://docs.google.com/document/d/1TqeA2KwHXdCsswXaFE-xeslCX7_Cavuz/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
           figmaLink: "#"
         }
       },
@@ -332,9 +333,9 @@ export const processData: Phase[] = [
         id: "transporterPortfolio",
         name: "CARTERA TRANSPORTADOR",
         links: {
-          videoLink: "#",
+          videoLink: "https://drive.google.com/file/d/1AKhhfIVth0C-qrFNDmvSmfFTmf7SwJ51/view?usp=drive_link",
           docLink: "#",
-          reqLink: "#",
+          reqLink: "https://docs.google.com/document/d/1LrPeZWG8j847MXNfcpFMeh_g9cHe1FBS/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
           figmaLink: "#"
         }
       }
@@ -349,8 +350,8 @@ export const processData: Phase[] = [
         id: "risks",
         name: "RIESGOS Y SEGUROS",
         links: {
-          videoLink: "#",
-          docLink: "#",
+          videoLink: "https://drive.google.com/file/d/1TBbRP8JC_qQ7qDyqfKo62FmfroODaZYZ/view?usp=drive_link",
+          docLink: "https://docs.google.com/document/d/1qsekxu-xMUeCYQUf6-V2IYtqhcTqJHBM/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
           reqLink: "#",
           figmaLink: "#"
         }
@@ -361,7 +362,7 @@ export const processData: Phase[] = [
         links: {
           videoLink: "#",
           docLink: "#",
-          reqLink: "#",
+          reqLink: "https://docs.google.com/document/d/11a4JzFLPNJYCRSs0rvmlhUwuxyLAuBj-/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
           figmaLink: "#"
         }
       },
@@ -370,7 +371,7 @@ export const processData: Phase[] = [
         name: "SINIESTROS",
         links: {
           videoLink: "#",
-          docLink: "#",
+          docLink: "https://docs.google.com/document/d/18hDZwe3MhgigLvvvfrrKRasV6GlXiS1i/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
           reqLink: "#",
           figmaLink: "#"
         }
@@ -396,8 +397,8 @@ export const processData: Phase[] = [
         id: "customerService",
         name: "SERVICIO AL CLIENTE - PQRs",
         links: {
-          videoLink: "#",
-          docLink: "#",
+          videoLink: "https://drive.google.com/file/d/1mKvHU17V8vSKEjQ8XRZOrRkpVIjMgekd/view?usp=drive_link",
+          docLink: "https://docs.google.com/document/d/11_mHGqTj602NPYT_mCldFHv0V89wpNav/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
           reqLink: "#",
           figmaLink: "#"
         }
@@ -406,9 +407,9 @@ export const processData: Phase[] = [
         id: "bearings",
         name: "RODAMIENTOS",
         links: {
-          videoLink: "#",
+          videoLink: "https://drive.google.com/file/d/1AKhhfIVth0C-qrFNDmvSmfFTmf7SwJ51/view?usp=drive_link",
           docLink: "#",
-          reqLink: "#",
+          reqLink: "https://docs.google.com/document/d/1SCb-ORFb_AgQECSxxFR-u6KlgbwjH-93/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
           figmaLink: "#"
         }
       },
@@ -416,10 +417,10 @@ export const processData: Phase[] = [
         id: "appStructure",
         name: "ESTRUCTURA APP TURNPIKE",
         links: {
-          videoLink: "#",
-          docLink: "#",
-          reqLink: "#",
-          figmaLink: "#"
+          videoLink: "https://drive.google.com/file/d/1mPV2u1dKZusW2HGsi9cGsQQMHq288B-k/view?usp=drive_link",
+          docLink: "https://drive.google.com/drive/folders/1_uxc3atWPMqyliC3WvJc7EhBdnyG9CbV?usp=sharing",
+          reqLink: "https://docs.google.com/document/d/1SRFf9Kp6YBQjngcxFS7kVyB4B214fMw4/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
+          figmaLink: "https://www.figma.com/board/qLHim6TIvac6glqikYUWkC/Estructuraci%C3%B3n-APP-HUMADEA?t=IEKCnVQpcCEj4wFz-1"
         }
       }
     ]
