@@ -6,29 +6,36 @@ export const processData: Phase[] = [
     title: "ARQUITECTURA DE TRANSPORTE",
     icon: "🏗️",
     processes: [
-      // Aquí puedes agregar los procesos específicos de arquitectura de transporte
-      // Por ejemplo:
       {
         id: "transport-planning",
         name: "PLANIFICACIÓN DE TRANSPORTE",
         links: {
-          videoLink: "#",
-          docLink: "#",
-          reqLink: "#",
-          figmaLink: "#"
+          videoLink: "https://drive.google.com/file/d/[REEMPLAZAR_CON_ID_DEL_VIDEO]/view?usp=drive_link",
+          docLink: "https://drive.google.com/drive/folders/[REEMPLAZAR_CON_ID_DE_CARPETA]?usp=drive_link",
+          reqLink: "https://docs.google.com/document/d/[REEMPLAZAR_CON_ID_DEL_DOC]/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
+          figmaLink: "https://www.figma.com/board/[REEMPLAZAR_CON_ID_DE_FIGMA]/Planificacion-Transporte?node-id=0-1&t=example-1"
         }
       },
       {
         id: "route-optimization",
         name: "OPTIMIZACIÓN DE RUTAS",
         links: {
-          videoLink: "#",
-          docLink: "#",
-          reqLink: "#",
+          videoLink: "https://drive.google.com/file/d/[REEMPLAZAR_CON_ID_DEL_VIDEO]/view?usp=drive_link",
+          docLink: "https://drive.google.com/drive/folders/[REEMPLAZAR_CON_ID_DE_CARPETA]?usp=drive_link",
+          reqLink: "https://docs.google.com/document/d/[REEMPLAZAR_CON_ID_DEL_DOC]/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
+          figmaLink: "https://www.figma.com/board/[REEMPLAZAR_CON_ID_DE_FIGMA]/Optimizacion-Rutas?node-id=0-1&t=example-1"
+        }
+      },
+      {
+        id: "fleet-management",
+        name: "GESTIÓN DE FLOTA",
+        links: {
+          videoLink: "https://drive.google.com/file/d/[REEMPLAZAR_CON_ID_DEL_VIDEO]/view?usp=drive_link",
+          docLink: "https://drive.google.com/drive/folders/[REEMPLAZAR_CON_ID_DE_CARPETA]?usp=drive_link",
+          reqLink: "https://docs.google.com/document/d/[REEMPLAZAR_CON_ID_DEL_DOC]/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
           figmaLink: "#"
         }
       }
-      // Agrega más procesos según sea necesario
     ]
   },
   {
@@ -204,7 +211,7 @@ export const processData: Phase[] = [
         name: "OPERACIÓN INTERNACIONAL",
         links: {
           videoLink: "https://drive.google.com/file/d/1KiankZFkEmU5p8uwcqnYsYalAea3jsak/view?usp=drive_link",
-          docLink: "https://drive.google.com/drive/folders/1J3Unp9RA5EBc8QxJBFB0qjVIkh3aTViB?usp=drive_link",
+          docLink: "#",
           reqLink: "#",
           figmaLink: "#"
         }
