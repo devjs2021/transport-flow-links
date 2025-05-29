@@ -20,21 +20,54 @@ const ProcessBox = ({ process }: ProcessBoxProps) => {
     // Prevenir que el evento se propague al contenedor padre
     event.stopPropagation();
     
+    console.log('Intentando abrir URL:', url); // Debug
+    
     if (url && url !== '#') {
+      // Limpiar la URL de posibles caracteres problemáticos
+      const cleanUrl = url.trim();
+      
+      // Verificar si es una URL válida
+      try {
+        new URL(cleanUrl);
+      } catch (urlError) {
+        console.error('URL inválida:', cleanUrl);
+        alert('URL inválida: ' + cleanUrl);
+        return;
+      }
+      
       // Intentar abrir la URL de diferentes maneras para asegurar compatibilidad
       try {
         // Método principal
-        window.open(url, '_blank', 'noopener,noreferrer');
+        const opened = window.open(cleanUrl, '_blank', 'noopener,noreferrer');
+        
+        // Verificar si se abrió correctamente
+        if (!opened || opened.closed || typeof opened.closed == 'undefined') {
+          throw new Error('Popup bloqueado');
+        }
+        
+        console.log('URL abierta exitosamente'); // Debug
       } catch (error) {
+        console.log('Método principal falló, intentando alternativo:', error); // Debug
+        
         // Método alternativo si el primero falla
-        const link = document.createElement('a');
-        link.href = url;
-        link.target = '_blank';
-        link.rel = 'noopener noreferrer';
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
+        try {
+          const link = document.createElement('a');
+          link.href = cleanUrl;
+          link.target = '_blank';
+          link.rel = 'noopener noreferrer';
+          link.style.display = 'none';
+          document.body.appendChild(link);
+          link.click();
+          document.body.removeChild(link);
+          console.log('URL abierta con método alternativo'); // Debug
+        } catch (altError) {
+          console.error('Ambos métodos fallaron:', altError);
+          // Como último recurso, mostrar la URL para que el usuario la copie
+          alert('No se puede abrir automáticamente. URL: ' + cleanUrl);
+        }
       }
+    } else {
+      console.log('URL vacía o marcador:', url); // Debug
     }
   };
 

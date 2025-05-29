@@ -11,7 +11,7 @@ export const processData: Phase[] = [
         name: "PLANIFICACIÓN DE TRANSPORTE",
         links: {
           videoLink: "https://drive.google.com/file/d/[REEMPLAZAR_CON_ID_DEL_VIDEO]/view?usp=drive_link",
-          docLink: "https://docs.google.com/document/d/1WtkHt1pg6kYkeCqFdIkaM6L5VTl8ZUIL/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
+          docLink: "https://drive.google.com/drive/folders/[REEMPLAZAR_CON_ID_DE_CARPETA]?usp=drive_link",
           reqLink: "https://docs.google.com/document/d/[REEMPLAZAR_CON_ID_DEL_DOC]/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
           figmaLink: "https://www.figma.com/board/[REEMPLAZAR_CON_ID_DE_FIGMA]/Planificacion-Transporte?node-id=0-1&t=example-1"
         }
@@ -48,7 +48,7 @@ export const processData: Phase[] = [
         id: "vehicles",
         name: "CREACIÓN DE VEHÍCULOS",
         links: {
-          videoLink: "https://drive.google.com/file/d/1bMu2HVqPYitnWbY5rPRPRSW",
+          videoLink: "https://drive.google.com/file/d/1bMu2HVqPYitnWbY5rPRPRSW/view?usp=drive_link",
           docLink: "https://drive.google.com/drive/folders/1hTuugXbZ8avI1-xXaBcszR8O13iGU6vM?usp=drive_link",
           reqLink: "https://docs.google.com/document/d/1WtkHt1pg6kYkeCqFdIkaM6L5VTl8ZUIL/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
           figmaLink: "#"
@@ -58,7 +58,7 @@ export const processData: Phase[] = [
         id: "associates",
         name: "CREACIÓN DE ASOCIADOS, CONDUCTORES Y POSEEDORES",
         links: {
-          videoLink: "https://drive.google.com/file/d/1bMu2HVqPYitnWbY5rPRPRSW",
+          videoLink: "https://drive.google.com/file/d/1bMu2HVqPYitnWbY5rPRPRSW/view?usp=drive_link",
           docLink: "https://docs.google.com/document/d/1kiEkwJmMfrqFpuEThJlNSj-IYOMVzMee/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
           reqLink: "https://docs.google.com/document/d/1kiEkwJmMfrqFpuEThJlNSj-IYOMVzMee/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
           figmaLink: "https://www.figma.com/board/9LcwYAkO2NM12VyAOH1dge/Creaci%C3%B3n-Asociados-y--su-relaci%C3%B3n---HUMADEA?node-id=0-1&t=vtkiCDewXY8fBwu0-1"
@@ -68,7 +68,7 @@ export const processData: Phase[] = [
         id: "activation",
         name: "ACTIVACIÓN DE VEHÍCULOS",
         links: {
-          videoLink: "https://drive.google.com/file/d/1bMu2HVqPYitnWbY5rPRPRSW",
+          videoLink: "https://drive.google.com/file/d/1bMu2HVqPYitnWbY5rPRPRSW/view?usp=drive_link",
           docLink: "https://drive.google.com/drive/folders/1hTuugXbZ8avI1-xXaBcszR8O13iGU6vM?usp=drive_link",
           reqLink: "https://docs.google.com/document/d/1Fsk0P7Y91hnXlESuNx4gJrEwKEGUpivQ/edit?usp=drive_link&ouid=107950265078643295769&rtpof=true&sd=true",
           figmaLink: "#"
