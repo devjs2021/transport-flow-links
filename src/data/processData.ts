@@ -79,7 +79,7 @@ export const processData: Phase[] = [
         name: "SEGURIDAD - ANÁLISIS",
         links: {
           videoLink: "https://drive.google.com/file/d/13YaXb85FhVSR29avhLLfTlJaAU33l6N_/view?usp=drive_link",
-          docLink: "https://docs.google.com/document/d/1uOnioVU7Hf30hKdm9CcFi8mLWaOnDOhx/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
+          docLink: "https://drive.google.com/drive/folders/15wjumM7k3rCRb_f6Lj7lmbwZ7t5Cy0q6?usp=drive_link",
           reqLink: "https://docs.google.com/document/d/1Fsk0P7Y91hnXlESuNx4gJrEwKEGUpivQ/edit?usp=drive_link&ouid=115478075634609640734&rtpof=true&sd=true",
           figmaLink: "#"
         }
