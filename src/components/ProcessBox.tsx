@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Process } from "@/types/processTypes";
 import { ExternalLink, Video, FileText, Settings, Figma } from "lucide-react";
@@ -17,9 +16,33 @@ const ProcessBox = ({ process }: ProcessBoxProps) => {
     { key: 'figmaLink', icon: Figma, label: 'Figma', color: 'text-purple-600' }
   ];
 
-  const handleLinkClick = (url: string) => {
+  const handleLinkClick = (url: string, event: React.MouseEvent) => {
+    // Prevenir que el evento se propague al contenedor padre
+    event.stopPropagation();
+    
     if (url && url !== '#') {
-      window.open(url, '_blank');
+      // Intentar abrir la URL de diferentes maneras para asegurar compatibilidad
+      try {
+        // Método principal
+        window.open(url, '_blank', 'noopener,noreferrer');
+      } catch (error) {
+        // Método alternativo si el primero falla
+        const link = document.createElement('a');
+        link.href = url;
+        link.target = '_blank';
+        link.rel = 'noopener noreferrer';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      }
+    }
+  };
+
+  const toggleShowLinks = (event: React.MouseEvent) => {
+    // Solo alternar si el click fue en el contenedor principal, no en un botón
+    if (event.target === event.currentTarget || 
+        (event.target as HTMLElement).closest('.process-header')) {
+      setShowLinks(!showLinks);
     }
   };
 
@@ -27,9 +50,9 @@ const ProcessBox = ({ process }: ProcessBoxProps) => {
     <div className="relative">
       <div 
         className="bg-white bg-opacity-90 p-4 rounded-lg border-l-4 border-blue-500 transition-all duration-300 cursor-pointer hover:bg-opacity-100 hover:scale-105 hover:shadow-lg"
-        onClick={() => setShowLinks(!showLinks)}
+        onClick={toggleShowLinks}
       >
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between process-header">
           <span className="text-sm font-medium text-gray-800">{process.name}</span>
           <ExternalLink className="w-4 h-4 text-gray-500" />
         </div>
@@ -39,18 +62,23 @@ const ProcessBox = ({ process }: ProcessBoxProps) => {
         <div className="absolute top-full left-0 right-0 mt-2 bg-white rounded-lg shadow-xl border z-10 overflow-hidden">
           {linkTypes.map(({ key, icon: Icon, label, color }) => {
             const url = process.links[key as keyof typeof process.links];
+            const isDisabled = !url || url === '#';
+            
             return (
               <button
                 key={key}
-                onClick={() => handleLinkClick(url)}
-                disabled={!url || url === '#'}
-                className={`w-full px-4 py-3 text-left hover:bg-gray-50 transition-colors flex items-center gap-3 ${
-                  !url || url === '#' ? 'opacity-50 cursor-not-allowed' : 'cursor-pointer'
+                onClick={(event) => handleLinkClick(url, event)}
+                disabled={isDisabled}
+                className={`w-full px-4 py-3 text-left transition-colors flex items-center gap-3 ${
+                  isDisabled 
+                    ? 'opacity-50 cursor-not-allowed bg-gray-50' 
+                    : 'cursor-pointer hover:bg-blue-50 active:bg-blue-100'
                 }`}
+                type="button"
               >
                 <Icon className={`w-4 h-4 ${color}`} />
                 <span className="text-sm font-medium">{label}</span>
-                {url && url !== '#' && <ExternalLink className="w-3 h-3 text-gray-400 ml-auto" />}
+                {!isDisabled && <ExternalLink className="w-3 h-3 text-gray-400 ml-auto" />}
               </button>
             );
           })}
