@@ -3,7 +3,7 @@ import { Phase } from "@/types/processTypes";
 export const processData: Phase[] = [
   {
     id: "architecture",
-    title: "ARQUITECTURA VALIDAR COMPLETO",
+    title: "ARQUITECTURA ws COMPLETO",
     icon: "🏗️",
     processes: [
       {
