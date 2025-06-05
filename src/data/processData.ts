@@ -3,7 +3,7 @@ import { Phase } from "@/types/processTypes";
 export const processData: Phase[] = [
   {
     id: "architecture",
-    title: "ARQUITECTURA DE TRANSPORTE",
+    title: "ARQUITECTURA VERSION DE PROCESO",
     icon: "🏗️",
     processes: [
       {
@@ -43,7 +43,7 @@ export const processData: Phase[] = [
     title: "FASE 1: CONFIGURACIÓN INICIAL",
     icon: "🔧",
     processes: [
-            
+
       {
         id: "vehicles",
         name: "CREACIÓN DE VEHÍCULOS",
