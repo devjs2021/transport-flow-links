@@ -8,7 +8,7 @@ export const processData: Phase[] = [
     processes: [
       {
         id: "transport-planning",
-        name: "PLANIFICACIÓN DE TRANSPORTE",
+        name: "ARQUITECTURA STONE",
         links: {
           videoLink: "https://drive.google.com/file/d/[REEMPLAZAR_CON_ID_DEL_VIDEO]/view?usp=drive_link",
           docLink: "https://drive.google.com/drive/folders/[REEMPLAZAR_CON_ID_DE_CARPETA]?usp=drive_link",
